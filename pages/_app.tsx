@@ -7,8 +7,9 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>React avançado - Boilerplate</title>
-        <link rel="shortcut icon" href="" />
-        <link rel="apple-touch-icon" href="" />
+        <link rel="shortcut icon" href="./img/icon-192.png" />
+        <link rel="apple-touch-icon" href="./img/icon-192.png" />
+        <link rel="manifest" href="../public/manifest.json" />
         <meta
           name="decription"
           content="project react, nextjs and styled-component"
